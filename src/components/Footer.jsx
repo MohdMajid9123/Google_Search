@@ -20,9 +20,9 @@ const Footer = () => {
           })}
         </div>
         <div className="flex justify-center ">
-          {settingMenu.map((manu, i) => {
+          {settingMenu.map((manu, index) => {
             return (
-              <React.Fragment key={i}>
+              <React.Fragment key={index}>
                 <span className="text-[#70767a] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px] cursor-pointer hover:underline">
                   {manu}
                 </span>
